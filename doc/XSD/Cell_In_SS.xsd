@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://document-identification-and-reference/2023" targetNamespace="http://document-identification-and-reference/2023" xmlns:ir="http://document-identification-and-reference/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Cell_In_SS">
+		<xs:complexType>
+			<xs:attribute name="URL" type="xs:anyURI"/>
+			<xs:attribute name="sheet" type="xs:string"/>
+			<xs:attribute name="begin" type="xs:string"> </xs:attribute>
+			<xs:attribute name="end" type="xs:string"> </xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
