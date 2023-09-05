@@ -8,17 +8,17 @@ This project uses.NET Framework 4.7.2
 ## Main Interface
 
 <p align="center">
-  <img width="600" height="350" src="/doc/img/Main interface.png">
+  <img width="600" height="350" src="/doc/Img/Main interface.png">
 </p>
 
 ## XML Interface
 
 <p align="center">
-  <img width="600" height="350" src="/doc/img/XML Interface.png">
+  <img width="600" height="350" src="/doc/Img/XML Interface.png">
 </p>
 
 ## Regular Expression Interface
 
 <p align="center">
-  <img width="600" height="350" src="/doc/img/Regular Expression Interface.png">
+  <img width="600" height="350" src="/doc/Img/Regular Expression Interface.png">
 </p>
