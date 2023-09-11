@@ -17,6 +17,7 @@ namespace Specify_and_Extract_Document_Segments
         public static String filename = "";
         XML xml = new XML();
         Regular reg = new Regular();
+        Help help = new Help();
 
         public Main()
         {
@@ -50,6 +51,16 @@ namespace Specify_and_Extract_Document_Segments
         private void regularExpressionToolStripMenuItem_Click(object sender, EventArgs e)
         {
             reg.ShowDialog();
+        }
+
+        private void othersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Ownership: Wang Yongxuan" + "\n" + "Version: 1.0.0");
+        }
+
+        private void hlepToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            help.ShowDialog();
         }
     }
 }

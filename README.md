@@ -10,7 +10,7 @@ Open Software Toolkit: .NET Framework 4.7.2
 
 ## Main interface
 <p align="center">
-  <img width="640" height="400" src="/doc/img/Main interface.png">
+  <img width="640" height="400" src="/doc/Img/Main interface.png">
 </p>
 
 ## Tool Functions

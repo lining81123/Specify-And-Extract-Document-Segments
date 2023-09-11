@@ -37,6 +37,9 @@
             this.regularExpressionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hlepToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.othersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +50,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
-            this.optionToolStripMenuItem});
+            this.optionToolStripMenuItem,
+            this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 35);
@@ -68,7 +72,7 @@
             // 
             this.selectFileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.selectFileToolStripMenuItem.Name = "selectFileToolStripMenuItem";
-            this.selectFileToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.selectFileToolStripMenuItem.Size = new System.Drawing.Size(199, 32);
             this.selectFileToolStripMenuItem.Text = "Select File";
             this.selectFileToolStripMenuItem.Click += new System.EventHandler(this.selectFileToolStripMenuItem_Click);
             // 
@@ -120,6 +124,34 @@
             this.label1.Size = new System.Drawing.Size(0, 24);
             this.label1.TabIndex = 9;
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.aboutToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.hlepToolStripMenuItem,
+            this.othersToolStripMenuItem});
+            this.aboutToolStripMenuItem.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.aboutToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(88, 31);
+            this.aboutToolStripMenuItem.Text = "About";
+            // 
+            // hlepToolStripMenuItem
+            // 
+            this.hlepToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.hlepToolStripMenuItem.Name = "hlepToolStripMenuItem";
+            this.hlepToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.hlepToolStripMenuItem.Text = "Help";
+            this.hlepToolStripMenuItem.Click += new System.EventHandler(this.hlepToolStripMenuItem_Click);
+            // 
+            // othersToolStripMenuItem
+            // 
+            this.othersToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaption;
+            this.othersToolStripMenuItem.Name = "othersToolStripMenuItem";
+            this.othersToolStripMenuItem.Size = new System.Drawing.Size(224, 32);
+            this.othersToolStripMenuItem.Text = "Others";
+            this.othersToolStripMenuItem.Click += new System.EventHandler(this.othersToolStripMenuItem_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -151,5 +183,8 @@
         private System.Windows.Forms.ToolStripMenuItem regularExpressionToolStripMenuItem;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem hlepToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem othersToolStripMenuItem;
     }
 }
