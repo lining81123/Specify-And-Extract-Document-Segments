@@ -1,0 +1,15 @@
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\bin\Debug\Specify and Extract Document Segments.exe.config
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\bin\Debug\Specify and Extract Document Segments.exe
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\bin\Debug\Specify and Extract Document Segments.pdb
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify and Extract Document Segments.csproj.AssemblyReference.cache
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify and Extract Document Segments.csproj.SuggestedBindingRedirects.cache
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify_and_Extract_Document_Segments.Main.resources
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify_and_Extract_Document_Segments.Properties.Resources.resources
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify_and_Extract_Document_Segments.Regular.resources
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify_and_Extract_Document_Segments.XML.resources
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify and Extract Document Segments.csproj.GenerateResource.cache
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify and Extract Document Segments.csproj.CoreCompileInputs.cache
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify and Extract Document Segments.csproj.CopyComplete
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify and Extract Document Segments.exe
+E:\VS\Specify and Extract Document Segments\Specify and Extract Document Segments\obj\Debug\Specify and Extract Document Segments.pdb

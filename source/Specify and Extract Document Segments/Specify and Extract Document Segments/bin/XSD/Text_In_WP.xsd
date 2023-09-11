@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://document-identification-and-reference/2023" xmlns:ir="http://document-identification-and-reference/2023" targetNamespace="http://document-identification-and-reference/2023"  elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Text_In_WP">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Begin">
+                <xs:complexType>
+                    <xs:attribute name="paragraph_number"/>
+                    <xs:attribute name="text_pos"/>
+                </xs:complexType>
+            </xs:element>
+            <xs:element name="End">
+                <xs:complexType>
+                    <xs:attribute name="paragraph_number"/>
+                    <xs:attribute name="text_pos"/>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+        <xs:attribute name="URL" type="xs:anyURI"/>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

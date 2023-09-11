@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://document-identification-and-reference/2023" targetNamespace="http://document-identification-and-reference/2023" xmlns:ir="http://document-identification-and-reference/2023" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:simpleType name="Postion_Type">
+		<xs:restriction base="xs:unsignedInt"/>
+	</xs:simpleType>
+	<xs:element name="Slide_In_Presentation">
+		<xs:complexType>
+			<xs:attribute name="URL" type="xs:anyURI"/>
+			<xs:attribute name="begin" type="Postion_Type"/>
+			<xs:attribute name="end" type="Postion_Type"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
